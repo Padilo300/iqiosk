@@ -202,3 +202,10 @@
     });
 
 })(jQuery);
+
+var iframe = $('.row div > iframe'),
+	ATTR   = $(iframe).attr('src');
+if(ATTR == ""){
+	$(iframe).css({'display': 'none'});
+	console.log("фрейм пустой");
+}else{console.log('Фрейм не пустой');}

@@ -4124,3 +4124,21 @@ body div > div.col-sm-6.col-md-8.col-lg-9.p-b-50 > div.flex-sb-m.flex-w.p-b-35,
 .bg-title-page{
   background-position: center;
 }
+.no-link{
+  cursor: pointer;
+}
+a.topbar-social-item{
+  transition: all 0.2s;
+}
+
+a.topbar-social-item:hover{
+  transform: scale(1.1);
+}
+section.blog.bgwhite h4 + p.s-text8.p-t-16{
+  max-height: 106px;
+    overflow: hidden;
+    margin: 10px 0;
+}
+section.blog.bgwhite h4.p-b-7{
+  height: 50px;
+}
